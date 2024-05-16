@@ -26,7 +26,14 @@ python read_metadata.py
 ```
 
 ## Usage
-Provide information on how to use your scripts here. Include examples if possible.
+`write_metadata.py`
+
+1. Inside the main function, set the name of the custom field for the metadata by replacing the value of the `field` variable with your custom field name.</br>
+2. After that, set the value of the custom metadata field you have previously named by replacing the value of the `value` variable with your custom value.</br>
+
+`read_metadata.py`
+1. Inside the main function, specify which field you want to read the value of by replacing the value of the `field` variable with the metadata field name you want to read.
+2. Decide what to do with the value by declaring your own functions or implementation.
 
 ## Contributing
 This is a project for a university unit, and is not currently accepting contributions.
